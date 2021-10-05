@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background-color:white;
+height: 100vh;
+}
+.logo{
+margin-left:104px ;
+margin-top: 30px;
+}
+nav{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+height: 72px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 35px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.body-content{
+    height: 375px;
+    width: 630px;
+    margin-top: 115px;
+    margin-left: 120px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+h1{
+    font-size: 65px;
+}
+p{
+    font-size: 25px;
+    color: grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ .p1{
+    font-size: 25px;
+    color:black;
+}
+button{
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    margin-top: 23px;
+    border-radius: 20px;
+    background-color: rgb(59, 128, 219);
+}
+.bottom-box{
+    height: 140px;
+    margin-top: 155px;
+    margin-left:211px;
+}
+.icon-box{
+    display: flex;
+    align-items: center;
+
+}
+.icon img{
+    height: 35px;
+    width: 100px;
+    margin-left: 58px;
+    margin-top: 37px;
+}
+.icon1 img{
+    height: 35px;
+    width: 100px;
+    margin-top: 37px;
+    margin-left: 0px;
+}
+.bottom1-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    width: 1155px;
+}
+.bottom-head{
+    width: 401px;
+    height: 80px;
+    margin-left: 211px;
+    margin-right: 95px;
+    margin-top: 55px;
+}
+.bottom-para{
+    width: 467px;
+    height: 69px;
+    margin-right: -7px;
+    margin-top: 55px;
+}
+h2{
+    font-size: 43px;
+}
+.bottom-para p{
+    font-size: 19px;
+    color:grey;
+}
+.bottom2-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 210px;
+    margin-right: 150px;
+    margin-top: 65px;
+}
+.box-1:hover{
+    width: 380px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid rgb(231, 228, 228);
+    border-radius: 8px;
+    box-shadow: -5px 5px 8px rgb(228, 225, 225);
+    z-index: 4px;
+    padding: 45px;
+}
+.box-1{
+    width: 380px;
+    height: 250px;
+    background-color: white;
+    padding: 45px;
+}
+h3{
+    font-size: 27px;
+}
+.box-1:hover h3{
+    color: rgb(28, 96, 241);
+    text-decoration: underline;
+}
+.box-1:hover p{
+    font-size: 21px;
+    color: black;}
+.box-1 p{
+    font-size: 20px;
+    color: grey;
+}
+.bottom2-box img{
+    width: 50px;
+    height: 30px;
+    margin-bottom: 15px;
+}
